@@ -15,7 +15,7 @@ COPY . .
 
 RUN npm run build
 
-FROM gcr.io/distroless/nodejs:14
+FROM gcr.io/distroless/nodejs:18
 # Set working directory
 WORKDIR /nestjs_core
 # Copy only necessary files from the build stage
