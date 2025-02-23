@@ -77,7 +77,7 @@ jobs:
         run: docker ps -a
 
       - name: Print Service Logs
-        run: docker logs sheba_rilac_pms_admin_service
+        run: docker logs app_version_control_service
 
       # - name: Health Check (Ensure Service is Running)
       #   run: |
